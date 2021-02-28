@@ -1,11 +1,12 @@
-<?php
-$GITHUB_USERNAME = 'haoow';  // 用户名
-$GITHUB_REPONAME = 'Yos';  // Repository名
-$GITHUB_BRANCHNAME = 'main';  // 分支名
-$GITHUB_TOKEN = 'e5f38caf6f972acf8dc0ed4246556e9fb9c504ed';  // TOKEN
-$GITHUB_EMAIL = 'waaanghao@icloud.com';  // 邮箱
-$GITHUB_NAME = 'haoow';  // 昵称
-
+//只修改这几项
+<?php 
+$GITHUB_USERNAME = '';  // 用户名
+$GITHUB_REPONAME = '';  // Repository名
+$GITHUB_BRANCHNAME = 'main';  // 分支名 我的是main git上传的可能是master 根据情况来
+$GITHUB_TOKEN = '';  // TOKEN  获取链接：https://github.com/settings/tokens
+$GITHUB_EMAIL = '';  // Github绑定的邮箱
+$GITHUB_NAME = '';  // 昵称
+//下面无需修改
 function callInterfaceCommon($URL, $type, $params, $headers)
 {
     $ch = curl_init($URL);
